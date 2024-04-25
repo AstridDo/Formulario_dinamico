@@ -1,0 +1,117 @@
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: #f3f2ef;
+    color: #333;
+    
+    line-height: 1.6;
+}
+
+h1
+{
+text-align: center;
+}
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.section-title {
+    background-color: #f0f7fd;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px; 
+    text-align: center; 
+    font-size: 22px;
+    color: #0073b1; 
+}
+
+.input-wrapper {
+    margin-bottom: 20px;
+}
+
+.input {
+    width: calc(100% - 20px); 
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.input[type="date"] {
+    width: 100%;
+}
+
+.input[type="submit"] {
+    background-color: #0073b1;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+    padding: 12px 20px; 
+}
+
+.input[type="submit"]:hover {
+    background-color: #005a8c;
+}
+
+.message {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.success {
+    background-color: #4caf50;
+    color: #fff;
+}
+
+.error {
+    background-color: #f44336;
+    color: #fff;
+}
+
+.add_button, .delete_button {
+    display: inline-block;
+    background-color: #0073b1;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    
+	margin-top: 10px; 
+}
+
+.add_button:hover, .delete_button:hover {
+    background-color: #005a8c;
+}
+	
+
+.button[type="submit"] {
+    background-color: #0344b1;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+    padding: 12px 40px; 
+}
+
+.button[type="submit"]:hover {
+    background-color: #005a8c;
+}
